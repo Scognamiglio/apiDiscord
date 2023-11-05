@@ -1,0 +1,19 @@
+{
+  "name": "zhen/apidiscord",
+  "version": "1.0.0",
+  "description": "Un connector ApiDiscord",
+  "authors": [
+    {
+      "name": "Scognamiglio",
+      "email": "loic.scognamiglio16@gmail.com"
+    }
+  ],
+  "require": {
+    "pear/http_request2": "^2.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "ApiDiscord\\": "src/"
+    }
+  }
+}
